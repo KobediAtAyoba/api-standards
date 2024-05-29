@@ -19,7 +19,7 @@ API best practices is a set of specifications and guidelines for developing, man
 The most commonly used specifications of API best practices include:
 
 1. Data Model:
-A data model encapsulates the structure of the data that will be exchanged between clients and servers through the API. This includes elements such as objects, attributes, and relationships between objects.  Within the context of Ayoba, a data model is required for almost all of our product briefs, whether new or existing changes, our data models should be designed to provide maximum flexibility.
+A data model encapsulates the structure of the data that will be exchanged between clients and servers through the API. This includes elements such as objects, attributes, and relationships between objects.  Within the context of Ayoba, a data model is required for almost all of our product briefs, whether new or existing changes, our data models should be designed to provide maximum flexibility. The Data Model and our recommendations on it are covered in the given link https://simfyafrica.atlassian.net/wiki/spaces/TEC/pages/2920742913/Ayoba+Data+Model. 
 
 2. Endpoints:
 Endpoints allow our mobile client, partners and providers to make requests to our backend server side. A good API architecture should have well-defined endpoints to ensure the correct content type header data is returned for successful response to the request body of http header a given request.
